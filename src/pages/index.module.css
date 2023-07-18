@@ -1,0 +1,9 @@
+.locationInputForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.locationInputForm input:invalid:not(:focus) {
+  border: 1px solid red;
+}
